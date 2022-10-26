@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>index page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="./css/indexMain.css">
+    </head>
+<body>
+        
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100">
+
+            <form action="/logout" >
+              <button class="login100-form-btn" >Log out</button>
+            </form>
+
+        <span class="login100-form-title p-b-34 p-t-27">
+          index page
+        </span>
+
+      <form action="/data?dataSearch" method="POST">
+        <label for="dataSearch" >Araç id: </label>
+        <input class="field_class" type="text" name="dataSearch" id='dataSearch' required />
+        <button class="login100-form-btn">ara</button>
+        </form>
+
+    </div>
+  </div>
+</div> 
+</body>
+</html>
+
+
+
+<!-- 
+
+<form action="/logout" >
+<button class="login100-form-btn">Log out</button>
+</form>
+
+<form action="/data?dataSearch" method="POST">
+    <label for="dataSearch">lokasyonu aranacak araç ip</label>
+    <input type="text" name="dataSearch" id='dataSearch' required />
+    <button>ara</button>
+</form>     -->
